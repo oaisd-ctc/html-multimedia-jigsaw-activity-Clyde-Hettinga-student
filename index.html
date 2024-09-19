@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body
+            {
+                background-color: rgb(23, 23, 23);
+                color: rgb(120, 245, 175);
+                
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                font-weight: bold;
+                
+                margin: auto;
+            }
+
+            video
+            {
+                width: 22.5%;
+                padding: 0% 11.25%;
+                border: 1px solid rgb(120, 245, 175);
+                border-radius: 5px;
+            }
+
+            audio
+            {
+                width: 45%;
+                border: 2px solid rgb(120, 245, 175);
+                border-radius: 30px;
+            }
+
+            iframe
+            {
+                border: 2px solid rgb(120, 245, 175);
+                border-radius: 5px;
+            }
+
+            canvas
+            {
+                background: rgb(40, 85, 200);
+                border: 2px solid black;
+                border-radius: 3px;
+            }
+
+            svg
+            {
+                width: 100%;
+                height: 125px;
+            }
+        </style>
+
+        <title>Multimedia Practice</title>
+    </head>
+
+    <body>
+        <h2>HTML Multimedia Demonstration</h2>
+
+        
+        <h3>Video Element</h3>
+        <video controls>
+            <source src="audiovideo/Raindrops_Videvo.mp4" type="video/mp4">
+        </video>
+
+        <h3>Audio Element</h3>
+        <audio controls>
+            <source src="audiovideo/mixaund-feel.mp3" type="audio/mp3">
+        </audio>
+
+        <h3>Inline Frame Element</h3>
+        <iframe src="https://example.com" height="410" width="45%" name="example"></iframe>
+
+        <h3>Canvas Element</h3>
+        <canvas width="175px" height="85px"></canvas>
+
+        <h3>SVG Element</h3>
+        <div>
+            <svg>
+                <circle cx="50%" cy="35%" r="35px" stroke="black" stroke-width="3px" fill="rgb(220, 0, 40)"></circle>
+            </svg>
+
+            <svg>
+                <rect x="46.1%" y="5%" width="150" height="60" stroke="black" stroke-width="3px" fill="rgb(0, 100, 90)"></rect>
+            </svg>
+
+            <svg>
+                <ellipse cx="50%" cy="35%" rx="85px" ry="38px" stroke="black" stroke-width="3px" fill="rgb(100, 240, 120)"></ellipse>
+            </svg>
+
+            <svg>
+                <line x1="45.75%" y1="5%" x2="54.25%" y2="60%" stroke="rgb(127, 127, 127)" stroke-width="2px"></line>
+            </svg>
+
+            <svg>        
+                <polygon points="950,10 875,75 1025,75" stroke="black" stroke-width="3px" fill="rgb(240, 200, 0)"></polygon>
+            </svg>
+        </div>
+    </body>
+</html>
